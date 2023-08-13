@@ -9,7 +9,7 @@ basic.forever(function () {
         received = 0
         led.toggle(2, 2)
     } else {
-        led.toggle(4, 4)
+        led.toggle(3, 3)
     }
     basic.pause(500)
 })
